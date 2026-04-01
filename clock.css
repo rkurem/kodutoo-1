@@ -1,29 +1,61 @@
-body{
-    margin:0;
-    padding:0;
-    background-color: black;
-    font-size: 30px;
-    color:white;
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    transition: 0.5s;
 }
 
-#container{
+#container {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
+    height: 100vh;
 }
 
-#clockContainer, #dateContainer{
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
+#clockContainer {
+    font-size: 8vw;
+    font-weight: bold;
 }
 
-button{
-    font-size: 1.1em;
-    border-radius: 20px;
-    padding: 0px;
-    height: 40px;
-    width: 40px;
+#dateContainer {
+    font-size: 3vw;
+}
+
+#weekday {
+    font-size: 2vw;
+    color: gray;
+}
+
+#buttonContainer {
+    margin-top: 20px;
+}
+
+button, input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    color: lightblue;
+}
+
+#themeChange {
+    width: 25px;
+    height: 25px;
+    pointer-events: none;
 }

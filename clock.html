@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +7,43 @@
     <link rel="stylesheet" href="clock.css">
     <title>Kell</title>
 </head>
+<!--ctrl+A -> ctrl+K + > ctrl+F - teeb HTMLI struktuuri-->
 
 <body>
-    <!-- HTML struktureerimiseks: Ctrl+A Ctrl+K Ctrl+F -->
     <div id="container">
+        
         <div id="clockContainer">
-            <div id="hours">00:</div>
-            <div id="minutes">00:</div>
-            <div id="seconds">00</div>
+            <span id="hours">00:</span>
+            <span id="minutes">00:</span>
+            <span id="seconds">00</span>
+            <span id="ampm"></span>
         </div>
+
         <div id="dateContainer">
-            <div id="day">01.</div>
-            <div id="month">01.</div>
-            <div id="year">2000</div>
+            <span id="day">01.</span>
+            <span id="month">01.</span>
+            <span id="year">2000</span>
         </div>
+
+        <div id="weekday">Esmaspäev</div>
+
         <div id="buttonContainer">
+            <button id="fontBtn">Font</button>
+            <input type="color" id="bgColor">
             <button id="bigger">+</button>
             <button id="smaller">-</button>
+            <button id="format">12H</button>
+            <button id="theme">
+            <!--How can i add a self chosen img to a button-->
+                <img src="moon.png" alt="nightOrDay" id="themeChange">
+            </button>
         </div>
     </div>
+
+    <div id="footer">
+        Autor: Remo Kurem <br>
+        <a href="https://github.com/rkurem/kodutoo-1#">GitHub repo</a>
+    </div>
+
 </body>
 </html>
