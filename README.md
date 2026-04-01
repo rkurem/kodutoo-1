@@ -1,14 +1,17 @@
 # Autor - Remo Kurem
-Veebirakenduse algvorm on tavaline valge taust koos musta tekstiga. Lehe keskel on kõik ajalised näitajad + 6 muudetavat atribuuti. Autori nimi koos repositooriumi lingiga on leitav lehe allosas keskel
-## Ekraanipilt
+Veebirakenduse algvorm on tavaline valge taust koos musta tekstiga. Lehe keskel on kõik ajalised näitajad + 6 muudetavat atribuuti. Autori nimi koos repositooriumi lingiga on leitav lehe allosas keskel.
+
+## Ekraanipildid
+<img width="1868" height="1078" alt="Screenshot_1" src="https://github.com/user-attachments/assets/53c3cd45-c44d-40b5-8ce7-70f702552a37" />
 <img width="1869" height="1075" alt="Screenshot_355" src="https://github.com/user-attachments/assets/9bc7e7d4-bf39-4f4c-a306-a91e7df6908b" />
-##Funktsionaalsus
+
+## Funktsionaalsus
 * "Font" - Muudab nii kellanumbrite kui ka kogu lehe tekstifonti(nuppu teksti fonti ei muuda). Kokku saab vahetada nelja erineva fondi vahel.
-* Teine nupp - lubab kasutajal ise valida taustavärvi
-* "+" - suurendab kellanäitaja suurust
-* "-" - vähendab kellanäitaja suurust
-* 24H/12H - vahetab ajavormingut 12-tunnise ja 24-tunnise kella vahel. Nupu tekst muutub olenevalt kella režiimist 12H ja 24H vahel.
-* Päikese või kuu ikoon - kergelt öeldes light-mode ja dark-mode. Vahetab tausta ja fondi värvi olenevalt režiimist. Nupu ikoon muutub olenevalt režiimist
+* Teine nupp - lubab kasutajal ise valida taustavärvi.
+* "+" - suurendab kellanäitaja suurust.
+* "-" - vähendab kellanäitaja suurust.
+* 24H/12H - vahetab ajavormingut 12-tunnise ja 24-tunnise kella vahel. Nupu tekst muutub olenevalt kella režiimist "12H" ja "24H" vahel. 12H puhul lisandub ka AM/PM.
+* Päikese või kuu ikoon - kergelt öeldes light-mode ja dark-mode. Vahetab tausta ja fondi värvi olenevalt režiimist. Nupu ikoon muutub olenevalt režiimist.
 
 
 # kodutoo-1
