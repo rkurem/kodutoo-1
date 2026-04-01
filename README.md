@@ -1,3 +1,16 @@
+# Autor - Remo Kurem
+Veebirakenduse algvorm on tavaline valge taust koos musta tekstiga. Lehe keskel on kõik ajalised näitajad + 6 muudetavat atribuuti. Autori nimi koos repositooriumi lingiga on leitav lehe allosas keskel
+## Ekraanipilt
+<img width="1869" height="1075" alt="Screenshot_355" src="https://github.com/user-attachments/assets/9bc7e7d4-bf39-4f4c-a306-a91e7df6908b" />
+##Funktsionaalsus
+* "Font" - Muudab nii kellanumbrite kui ka kogu lehe tekstifonti(nuppu teksti fonti ei muuda). Kokku saab vahetada nelja erineva fondi vahel.
+* Teine nupp - lubab kasutajal ise valida taustavärvi
+* "+" - suurendab kellanäitaja suurust
+* "-" - vähendab kellanäitaja suurust
+* 24H/12H - vahetab ajavormingut 12-tunnise ja 24-tunnise kella vahel. Nupu tekst muutub olenevalt kella režiimist 12H ja 24H vahel.
+* Päikese või kuu ikoon - kergelt öeldes light-mode ja dark-mode. Vahetab tausta ja fondi värvi olenevalt režiimist. Nupu ikoon muutub olenevalt režiimist
+
+
 # kodutoo-1
 
 ## Tähtaeg 01.04.2026 23:59
